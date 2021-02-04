@@ -21,7 +21,7 @@
 }
 
 .about::after {
-  content: "Hello.";
+  content: "Hello,";
 }
 
 .about:hover:after {
