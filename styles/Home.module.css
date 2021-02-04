@@ -14,6 +14,8 @@
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
+  /* font-family: sans-serif; */
+  text-transform: lowercase;
 }
 
 .greeting {
@@ -26,29 +28,30 @@
 
 .about:hover:after {
   content: "About";
+  color: white;
 }
 
 .showcases::after {
-  content: "I am";
-  color: var(--red-color);
+  content: "I'm athachai";
+  color: var(--black-color);
 }
 
 .showcases:hover:after {
-  content: "Showcases";
-  color: var(--black-color);
+  content: "My works";
+  color: white;
 }
 
 .contact::after {
-  content: "Athachai";
-  color: var(--red-color);
+  content: "Software Developer";
+  color: var(--salmon-color);
 }
 
-.contact:hover:after {
+/* .contact:hover:after {
   content: "Contact";
-  color: var(--black-color);
-}
+  color: white;
+} */
 
-.about:hover:after, .showcases:hover:after, .contact:hover:after {
+.about:hover:after, .showcases:hover:after {
   cursor: pointer;
   background-color: var(--salmon-color);
 }

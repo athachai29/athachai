@@ -7,18 +7,24 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Athachai Mala-ut</title>
+        <title>athachai mala-ut</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Portfolio - example projects delivered for various clients and my personal project. cross-platform, data analytic, machine learning, custom..."
+        />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.greeting}>
+        <div className={styles.greeting}>
           <Link href="/about">
             <div className={styles.about}></div>
           </Link>
-          <div className={styles.showcases}></div>
+          <Link href="/showcase">
+            <div className={styles.showcases}></div>
+          </Link>
           <div className={styles.contact}></div>
-        </h1>
+        </div>
       </main>
     </div>
   );
