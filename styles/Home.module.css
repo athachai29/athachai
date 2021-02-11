@@ -42,7 +42,7 @@
 }
 
 .contact::after {
-  content: "Software Developer";
+  content: "Software Developer 💻";
   color: var(--salmon-color);
 }
 
