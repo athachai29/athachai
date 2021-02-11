@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Portfolio - example projects delivered for various clients and my personal project. cross-platform, data analytic, machine learning, custom..."
+          content="Portfolio - example projects delivered for various clients and my personal project. website, cross-platform, data analyze, machine learning, custom..."
         />
       </Head>
 

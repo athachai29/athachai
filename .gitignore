@@ -38,3 +38,9 @@ yarn-error.log*
 
 # note files
 about.md
+
+# pwa
+# next-pwa
+/public/sw.js*
+/public/workbox-*.js*
+site.webmanifest
