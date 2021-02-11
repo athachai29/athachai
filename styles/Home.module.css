@@ -19,7 +19,7 @@
 }
 
 .greeting {
-  font-size: 10rem;
+  font-size: 2em;
 }
 
 .about::after {
@@ -54,10 +54,4 @@
 .about:hover:after, .showcases:hover:after {
   cursor: pointer;
   background-color: var(--salmon-color);
-}
-
-@media (max-width: 600px) {
-  .greeting {
-    font-size: 3rem;
-  }
 }
