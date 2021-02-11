@@ -16,6 +16,11 @@ class MyDocument extends Document {
                     <link rel="manifest" href="/manifest.json" />
                     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                     <meta name="theme-color" content="#ffffff" />
+                    <meta
+                        name="description"
+                        content="Portfolio - example projects delivered for various clients and my personal project. website, cross-platform, data analyze, machine learning, custom..."
+                    />
+                    {/* <link rel="icon" href="/favicon.ico" /> */}
                 </Head>
                 <body>
                     <Main />
