@@ -47,7 +47,7 @@ export default function Showcases() {
                     {/* Recommendation AV movie */}
                     <div className={styles.gridItem}>
                         <img src="https://images.unsplash.com/photo-1588031710787-5d6e7feac7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&h=1505&q=80" />
-                        <div style={{ fontSize: 64 }}>Movie Recommendation</div>
+                        <div style={{ fontSize: '64%' }}>Movie Recommendation</div>
                     </div>
                     {/* Command-line tools */}
                     <div className={styles.gridItem}>
