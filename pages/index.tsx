@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>athachai mala-ut</title>
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
         <meta
           name="description"
           content="Portfolio - example projects delivered for various clients and my personal project. website, cross-platform, data analyze, machine learning, custom..."
