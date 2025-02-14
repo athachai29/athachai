@@ -6,22 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>athachai</title>
     <link rel="stylesheet" href="./styles/index.css" />
-    <script type="module">
-        // doc: https://zerodevx.github.io/zero-md/?a=advanced-usage.md
-        import ZeroMd, { STYLES } from 'https://cdn.jsdelivr.net/npm/zero-md@3'
-
-        customElements.define('zero-md', class extends ZeroMd {
-            async load() {
-                await super.load()
-                this.template = STYLES.preset('light') // or STYLES.preset('dark')
-            }
-        })
-    </script>
+    <script type="module" src="./js/zero-md.js"></script>
 </head>
 
 <body>
     <h1>athachai</h1>
-    <zero-md src="../contents/introduction.md"></zero-md>
+    <zero-md src="./contents/14022025-introduction.md"></zero-md>
     <br>
     <figure>
         <img src="./images/me-and-my-friend.JPG" alt="Me and my friends." srcset="" style="max-width: 400px;">
