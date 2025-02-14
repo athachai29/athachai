@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>athachai</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script type="module">
+        // doc: https://zerodevx.github.io/zero-md/?a=advanced-usage.md
+        import ZeroMd, { STYLES } from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+
+        customElements.define('zero-md', class extends ZeroMd {
+            async load() {
+                await super.load()
+                this.template = STYLES.preset('light') // or STYLES.preset('dark')
+            }
+        })
+    </script>
 </head>
 
 <body>
     <h1>athachai</h1>
-    <p>
-        I hope this will be my portfolio. Contains links to my projects and most of them. My thoughts.
-
-        In the fast edge. I try to slow it down by writing everything in this project with Vim. No fancy editor, no
-        frameworks, just me and my thoughts.
-    </p>
+    <zero-md src="../contents/introduction.md"></zero-md>
 </body>
 
 </html>
